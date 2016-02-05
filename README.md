@@ -4,7 +4,7 @@ Pandora downloader
 # Readme
 This is a very old project that was released in 2011 to a closed community, is being mirrored here and will be updated eventually. All source code is for demonstrational and educational purposes only, it comes with no warranty, I do not advise that you use it.
 
-This was mostly a test of microsofts new C++/CLI language, that was the only language to feature full 100% managed/unmanaged interoperability. It was fun to learn, but the syntax is very picky and too complex, which is likely why it never caught on and became a dead language.
+This was mostly a test of microsofts new C++/CLI language, that was the only language to feature full 100% managed/unmanaged interoperability. It was fun to learn, but the syntax is very picky and too complex, which is likely why it never caught on and became a dead language. I was very happy at the time to be able to spawn a fully managed, Winforms GUI from inside of a DLL that is injected into another process, once inside, it deploys fully native hooks.
 
 # Old note
 In this project you will see a little bit of everything, API Hooking, Unmanaged C++ code, and Managed C++/CLI. It uses unmanaged code to hook the winsock function "send", and managed code to control the UI. "I used a unmanaged hook because it feels more native to me - pun intended". 
